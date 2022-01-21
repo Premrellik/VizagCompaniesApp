@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Vizag Co</string>
+    <string name="open" />
+    <string name="close" />
+    <string name="don_t_have_an_account_sign_up">Don\'t have an account? Sign Up</string>
+    <string name="disable">disable</string>
+    <string name="enable">enable</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <!-- TODO: Remove or change this placeholder text -->
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>

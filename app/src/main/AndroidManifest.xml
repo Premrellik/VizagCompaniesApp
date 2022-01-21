@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.rellik.vico">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/splash_image"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/splash_image"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Vizag"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="m">
+
+
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true"
+            android:screenOrientation="portrait">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".WebViews.Private_webview" />
+        <activity android:name=".WebViews.Government_webview" />
+        <activity android:name=".WebViews.College_webview" />
+
+        <activity
+            android:name=".LoRi.Register"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LoRi.login"
+            android:screenOrientation="portrait" />
+        <activity android:name=".WebViews.Software_webview" />
+        <activity android:name=".WebViews.Show" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3555539480730123~8303191659" />
+    </application>
+
+</manifest>

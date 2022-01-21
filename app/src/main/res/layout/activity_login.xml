@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/linear"
+    android:background="#052688"
+    tools:context=".LoRi.login">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="100dp"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:text="Sign In"
+        android:fontFamily="serif"
+        android:textColor="#fff"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25sp"
+        android:background="@drawable/edit_text"
+        android:hint="Username"
+        android:inputType="text"
+        android:padding="7dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="20sp"
+        android:autofillHints="true" />
+
+
+    <EditText
+        android:id="@+id/signIn_password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:background="@drawable/edit_text"
+        android:maxLength="20"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="7dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="20sp"
+        />
+
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        android:text="Forgot Password?"
+        android:fontFamily="serif"
+        android:onClick="forgetPassword"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        tools:ignore="UsingOnClickInXml" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:background="@drawable/btn"
+        android:onClick="Login"
+        android:text="LOGIN"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        tools:ignore="UsingOnClickInXml" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:text="or"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:autofillHints=""/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:onClick="signUp"
+        android:text="@string/don_t_have_an_account_sign_up"
+        android:fontFamily="serif"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        tools:ignore="UsingOnClickInXml" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>

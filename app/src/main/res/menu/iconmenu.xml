@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/privat"
+        android:icon="@drawable/privat"
+        android:title="Private" />
+
+    <item
+        android:id="@+id/menu_home"
+        android:icon="@drawable/computer"
+        android:title="Software" />
+
+    <item
+        android:id="@+id/goverment"
+        android:icon="@drawable/government"
+        android:title="Government" />
+
+    <item
+        android:id="@+id/college"
+        android:icon="@drawable/college"
+        android:title="College / School" />
+
+
+
+    <item
+        android:id="@+id/menu_about"
+        android:icon="@drawable/about"
+        android:title="About" />
+
+    <item
+        android:id="@+id/menu_share"
+        android:icon="@drawable/share"
+        android:iconTintMode="@color/black"
+        android:title="Share" />
+
+
+    <item
+        android:id="@+id/signout"
+        android:icon="@drawable/signout"
+        android:title="Sign Out" />
+
+
+</menu>
+
+
+
